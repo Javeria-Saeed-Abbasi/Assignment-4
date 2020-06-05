@@ -1,0 +1,297 @@
+.menu-area{background: linear-gradient(to right, #0714c2 , red);}
+.dropdown-menu{padding:0;margin:0;border:0 solid transition!important;border:0 solid rgba(0,0,0,.15);border-radius:0;-webkit-box-shadow:none!important;box-shadow:none!important}
+.mainmenu a, .navbar-default .navbar-nav > li > a, .mainmenu ul li a , .navbar-expand-lg .navbar-nav .nav-link{color:#fff;font-size:16px;text-transform:capitalize;padding:16px 15px;font-family:'Roboto',sans-serif;display: block !important;}
+.mainmenu .active a,.mainmenu .active a:focus,.mainmenu .active a:hover,.mainmenu li a:hover,.mainmenu li a:focus ,.navbar-default .navbar-nav>.show>a, .navbar-default .navbar-nav>.show>a:focus, .navbar-default .navbar-nav>.show>a:hover{color: #fff;background: rgb(218, 33, 9);outline: 0;}
+/*==========Sub Menu=v==========*/
+.mainmenu .collapse ul > li:hover > a{background: rgb(230, 37, 12);}
+.mainmenu .collapse ul ul > li:hover > a, .navbar-default .navbar-nav .show .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .show .dropdown-menu > li > a:hover{background: rgb(230, 37, 12);}
+.mainmenu .collapse ul ul ul > li:hover > a{background:rgb(230, 37, 12);}
+
+.mainmenu .collapse ul ul, .mainmenu .collapse ul ul.dropdown-menu{background:#1565C0;}
+.mainmenu .collapse ul ul ul, .mainmenu .collapse ul ul ul.dropdown-menu{background:#1E88E5}
+.mainmenu .collapse ul ul ul ul, .mainmenu .collapse ul ul ul ul.dropdown-menu{background:#64B5F6}
+
+/******************************Drop-down menu work on hover**********************************/
+.mainmenu{background: none;border: 0 solid;margin: 0;padding: 0;min-height:20px;width: 100%;}
+@media only screen and (min-width: 767px) {
+.mainmenu .collapse ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
+/*******/
+.mainmenu .collapse ul ul li{position:relative}
+.mainmenu .collapse ul ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
+/*******/
+.mainmenu .collapse ul ul ul li{position:relative}
+.mainmenu .collapse ul ul ul li:hover ul{display:block}
+.mainmenu .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}
+
+}
+@media only screen and (max-width: 767px) {
+.navbar-nav .show .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 35px}
+.navbar-nav .show .dropdown-menu .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 45px}
+}
+.navbar-toggler-icon{
+background-color:red;
+
+}
+/* ================================ slider css =================================================*/
+.carouselExampleFad .carousel-inner .carousel-item{
+  width:100%;
+  height:auto;
+}
+
+/* =============================== category =================================================== */
+.green-line{
+  width: 9%;
+  position: relative;
+  margin: 10px;
+  border-bottom: 4px solid rgb(16, 33, 182);
+}
+.heading{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  color: rgb(189, 21, 21);
+}
+#category h4{
+  font-family: 'Bebas Neue', cursive;
+}
+#category .btn{
+  color: #fff;
+  border: 4px solid blue;
+  background:linear-gradient(to right, #0714c2 , red);
+}
+#category .btn:hover{
+  transform: scale(1.1); 
+}
+#category .card{
+  border: 2px solid red;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+
+/* =================== Brands ==================*/
+
+#brands{
+  background-color: rgb(245, 238, 238);
+}
+#brands .card{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  border: 3px solid transparent; 
+  border-image: linear-gradient(to right,#0714c2 , red); 
+  border-image-slice: 1; 
+}
+#brands .card img:hover {
+  transform: scale(1.1); 
+  border: 3px solid transparent; 
+  border-image: linear-gradient(to right,#0714c2 , red); 
+  border-image-slice: 1; 
+}
+/* =========================== Finder ================================= */
+#finder select{
+  border: 3px solid transparent; 
+  border-image: linear-gradient(to right,#0714c2 , red); 
+  border-image-slice: 1; 
+  /* /* width: 50%; */
+} 
+#finder .btn{
+  color: #fff;
+  background: linear-gradient(to right,#0714c2 , red);
+}
+#finder form{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.308);
+}
+/* ===================== Why to shop ======================== */
+#shop-content{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* ====================== Footer ======================= */
+#footer{
+  background: linear-gradient(to right, red ,#0714c2); 
+  color: #fff;
+}
+#footer-mid{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+#footer-mid hr{
+  border: 3px solid transparent; 
+  border-image: linear-gradient(to right,#0714c2 , red); 
+  border-image-slice: 1; 
+}
+.footer-copyright{
+  background:#000;
+}
+#footer-brands a{
+ color: #0714c2;
+ font-weight: bold;
+}
+#footer-products a{
+  color: #0714c2;
+  font-weight: bold;
+ }
+ /* ===================contact us================== */
+ /* #contact-form-body{
+background:linear-gradient(to right,#0714c2 , red);  
+ } */
+ #contact-content{
+   background: rgb(238, 232, 232);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+#contact-content address{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.contact-form{
+  background:linear-gradient(to right,#0714c2 , red);
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.contact-form .form-control{
+  border-radius:1rem;
+}
+.contact-image{
+  text-align: center;
+}
+.contact-image img{
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  /* transform: rotate(29deg); */
+}
+.contact-form form{
+  padding: 14%;
+}
+.contact-form form .row{
+  margin-bottom: -7%;
+}
+.contact-form h3{
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
+/* =========================== Exide gallery ================================= */
+#exide-gallery .btn:active{
+  background:red ;
+}
+#exide-gallery .btn{ 
+  text-align: center;
+  margin-right: 5px;
+  background: linear-gradient(to right,#0714c2 , red);
+  color: #fff;
+  
+}
+#exide-hr{
+  border: 2px dashed red;
+  width: 70%;
+}
+#exide-gallery-content{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+/********************* Exide Gallery products**********************/
+.product-grid4,.product-grid4 .product-image4{position:relative}
+.product-grid4{font-family:Poppins,sans-serif;text-align:center;border-radius:5px;overflow:hidden;z-index:1;transition:all .3s ease 0s}
+.product-grid4:hover{box-shadow:0 0 10px rgba(0,0,0,.2)}
+.product-grid4 .product-image4 a{display:block}
+.product-grid4 .product-image4 img{width:100%;height:auto}
+.product-grid4 .pic-1{opacity:1;transition:all .5s ease-out 0s}
+.product-grid4:hover .pic-1{opacity:0}
+.product-grid4 .pic-2{position:absolute;top:0;left:0;opacity:0;transition:all .5s ease-out 0s}
+.product-grid4:hover .pic-2{opacity:1}
+.product-grid4 .social{width:180px;padding:0;margin:0 auto;list-style:none;position:absolute;right:0;left:0;top:50%;transform:translateY(-50%);transition:all .3s ease 0s}
+.product-grid4 .social li{display:inline-block;opacity:0;transition:all .7s}
+.product-grid4 .social li:nth-child(1){transition-delay:.15s}
+.product-grid4 .social li:nth-child(2){transition-delay:.3s}
+.product-grid4 .social li:nth-child(3){transition-delay:.45s}
+.product-grid4:hover .social li{opacity:1}
+.product-grid4 .social li a{color:#222;background:#fff;font-size:17px;line-height:36px;width:40px;height:36px;border-radius:2px;margin:0 5px;display:block;transition:all .3s ease 0s}
+.product-grid4 .social li a:hover{color:#fff;background:#16a085}
+.product-grid4 .social li a:after,.product-grid4 .social li a:before{content:attr(data-tip);color:#fff;background-color:#000;font-size:12px;line-height:20px;border-radius:3px;padding:0 5px;white-space:nowrap;opacity:0;transform:translateX(-50%);position:absolute;left:50%;top:-30px}
+.product-grid4 .social li a:after{content:'';height:15px;width:15px;border-radius:0;transform:translateX(-50%) rotate(45deg);top:-22px;z-index:-1}
+.product-grid4 .social li a:hover:after,.product-grid4 .social li a:hover:before{opacity:1}
+.product-grid4 .product-discount-label,.product-grid4 .product-new-label{color:#fff;background-color:#16a085;font-size:13px;font-weight:800;text-transform:uppercase;line-height:45px;height:45px;width:45px;border-radius:50%;position:absolute;left:10px;top:15px;transition:all .3s}
+.product-grid4 .product-discount-label{left:auto;right:10px;background-color:#d7292a}
+.product-grid4:hover .product-new-label{opacity:0}
+.product-grid4 .product-content{padding:25px}
+.product-grid4 .title{font-size:15px;font-weight:400;text-transform:capitalize;margin:0 0 7px;transition:all .3s ease 0s}
+.product-grid4 .title a{color:#222}
+.product-grid4 .title a:hover{color:#16a085}
+.product-grid4 .price{color:#0714c2;font-size:17px;font-weight:700;margin:0 2px 15px 0;display:block}
+.product-grid4 .price span{color:#909090;font-size:13px;font-weight:400;letter-spacing:0;text-decoration:line-through;text-align:left;vertical-align:middle;display:inline-block}
+.product-grid4 .add-to-cart{border:1px solid #e5e5e5;display:inline-block;padding:10px 20px;color:#888;font-weight:600;font-size:14px;border-radius:4px;transition:all .3s}
+.product-grid4:hover .add-to-cart{border:1px solid transparent;background:red;color:#fff}
+.product-grid4 .add-to-cart:hover{background-color:#505050;box-shadow:0 0 10px rgba(0,0,0,.5)}
+@media only screen and (max-width:990px){.product-grid4{margin-bottom:30px}
+}
+/* ============================ Detail page==================================== */
+
+#product-details{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.329);
+}
+#review-form button[type=submit]{
+  background: linear-gradient(to right,#0714c2 , red);
+}
+
+/* =================================== My Cart ============================ */
+#mycart thead th{
+ background: linear-gradient(to right,#0714c2 , red);
+  color: white;
+}
+#coupon button {
+    background:linear-gradient(to right,#0714c2 , red); 
+}
+#coupon .btn {
+  background:linear-gradient(to right,#0714c2 , red); 
+}
+
+/* ======================================= Battery Check up =================================== */
+#checkup input[type=text], input[type=tel]{
+
+  border: 3px solid transparent; 
+  border-image: linear-gradient(to right,#0714c2 , red); 
+  border-image-slice: 1; 
+}
+#checkup select{
+  border: 3px solid transparent; 
+  border-image: linear-gradient(to right,#0714c2 , red); 
+  border-image-slice: 1; 
+}
+/* =============================== Solar pANEL ======================================= */
+#solar-bg{
+  background-image: url('/images/exide/slider2\ exide.jpg');
+  width: 100%;
+  height: 100%;
+}
